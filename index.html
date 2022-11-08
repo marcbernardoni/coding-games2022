@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding-Game Guénange</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas1"></canvas>
+
+    <!-- sounds -->
+    <audio id="cat" src="./assets/sounds/cat.mp3"></audio>
+    <audio id="raven" src="./assets/sounds/raven.wav"></audio>
+
+    <div class="grimoire isVisible">
+      <div class="tabs-content">
+        <h2>Bienvenu dans le Pokedex</h2>
+        <div class="tabs__tab" id="air" data-tab-info></div>
+        <div class="tabs__tab" id="terre" data-tab-info></div>
+        <div class="tabs__tab" id="eau" data-tab-info></div>
+        <div class="tabs__tab" id="feu" data-tab-info></div>
+        <div class="tabs__tab" id="all" data-tab-info></div>
+      </div>
+      <div class="tabs">
+        <span data-tab-value="#air" name="air">Type Air</span>
+        <span data-tab-value="#terre" name="terre">Type Terre</span>
+        <span data-tab-value="#eau">Type Eau</span>
+        <span data-tab-value="#feu">Type Feu</span>
+        <span data-tab-value="#all">Tous</span>
+      </div>
+    </div>
+    <!-- Test Commit-->
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
